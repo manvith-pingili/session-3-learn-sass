@@ -3,6 +3,7 @@
 }
 
 .main-button {
+    //extend the css properties of .push-button
     @extend .push-button;
     font-weight: bold;
 }
