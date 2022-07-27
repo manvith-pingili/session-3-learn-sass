@@ -3,5 +3,6 @@ $padding: 20px;
 
 .container {
     padding: $padding;
+    //Using math operators to set the width
     width: (0.8 * $page-width) - (2 * $padding);
 }
