@@ -1,3 +1,4 @@
+//mixin border that accepts a variable thickness and sets the border-width
 @mixin border($thickness) {
     border-width: $thickness;
 }
