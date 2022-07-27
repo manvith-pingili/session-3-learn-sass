@@ -1,4 +1,5 @@
 $i: 1;
+//using while loop to set the font-size of h1 through h6
 @while $i <= 6  {
   h#{$i} {
     font-size: 24px - (3px * $i);
