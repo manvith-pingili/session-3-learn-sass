@@ -1,5 +1,5 @@
 $selector: 'article';
-
+//interpolating the value of selector
 #{$selector} {
     color: #ff0000;
 }
