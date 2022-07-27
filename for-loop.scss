@@ -1,4 +1,4 @@
-//setting the font-size from h1 through h6
+//setting the font-size from h1 through h6 using for-loop
 @for $i from 1 through 6 {
     .h#{$i} {font-size: 24px - (3px * $i);}
 }
