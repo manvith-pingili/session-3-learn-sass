@@ -5,6 +5,7 @@
 
 .img {
     @include border(10px) {
+        //invoking the @content
     border-style: solid;
  }
 }
